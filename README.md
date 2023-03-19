@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Mission 5 
+
+The purpose of this mission is to create a web appication where I designed a Web page that consist of a search result assuming that a user has searched for a property and will reveal the outcome of the displayed filtered houses that matches the criteria. I mainly used Javascript, React and also css to create app but I also do the backend where I created the database that connects to mongoDB and I used Mongo Atlas to create the database and have inserted the document in my database coming from my mongodb dashboard where I have created the property deatails of the filtered houses. 
+
+## Running with Docker
+So in this mission, I have used docker files and I have two docker files in each of the directory where one is frontend and the other is backend. and also I have docker-compose yaml file that is used to read through both of the directories and ensures that they run through the container when compiling them. In order to run this application, you must start a new terminal and you should directed to a root folder and when you are in the root folder, you enter this command "docker-compose up" and it may take a long time to wait but once it is completed, you must have the docker desktop and open the container that has been named and you would need to check if they are running and when they are running, you can enter the localhost:3000 in any browser you prefer and the application should open
+
+Thanks for reading
